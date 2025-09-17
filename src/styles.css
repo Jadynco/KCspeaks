@@ -1,6 +1,6 @@
 :root{
-  --brand: rgb(57, 18, 135); 
-  --brand-dark: #391287;
+  --brand: rgb(128, 27, 229); 
+  --brand-dark: #2f1269;
   --pink: #ea31c2;
   --purple-dark: rgb(123, 44, 191);
   --ink: #0f172a;
@@ -386,5 +386,24 @@ label {
    .nav-link.active, .nav-link:hover {
   color: var(--ink);
    background:none; 
+  }
+
+    .hero_background{
+    background:url("/src/images/IMG_0931.jpeg");
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    top: 0;
+    z-index: 0;
+    filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin:0 auto;
+    left: 50%;                     /* position from the middle */
+    transform: translateX(-50%);
+
   }
 }
