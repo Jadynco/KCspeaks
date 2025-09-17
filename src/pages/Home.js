@@ -42,6 +42,8 @@ export default function Home(){
 
   return (
     <main>
+      <div className='hero_background'></div>
+      <div class="hero_overlay"></div>
       <section className="hero">
         <div className="container">
           <p className="kicker">Kenyatta Speaks</p>

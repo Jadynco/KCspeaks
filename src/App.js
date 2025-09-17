@@ -29,15 +29,15 @@ function Navbar(){
     <nav className="navbar">
       <div className="container navbar-inner">
         <div className="brand">
-          <div className="brand-logo">KS</div>
-          <div>Kenyatta Speaks</div>
+          <div className="brand-logo"><img src={KSLogo}/></div>
+          <div className='head'>Kenyatta Speaks</div>
         </div>
         <div className="nav-links">
           <NavLink to="/" end className={({isActive})=>`nav-link ${isActive ? 'active':''}`}>Home</NavLink>
            <NavLink to="/services" className={({isActive})=>`nav-link ${isActive ? 'active':''}`}>Services</NavLink>
           <NavLink to="/about" className={({isActive})=>`nav-link ${isActive ? 'active':''}`}>About</NavLink>
           <a className="btn" href="#contact">
-            <Mail size={18}/> Contact
+            <Mail size={15}/> Contact
           </a>
         </div>
       </div>

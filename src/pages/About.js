@@ -1,4 +1,5 @@
 import React from 'react';
+import HS from './assets/Kenyatta_Headshot 2021 .jpeg'
 
 export default function About(){
   return (
@@ -9,7 +10,9 @@ export default function About(){
      
 <div className="card span-6">
 
-
+<div className='about'>
+  <div className='about_img'><img src={HS}/></div>
+  <div>
   <p>
     I was born and raised in Riviera Beach, Florida. I earned a Bachelor of Arts degree in Sociology from Florida Atlantic University in 2003 and a master’s 
     degree in social work from Barry University in 2011. With nearly two decades of experience in the field of child welfare, including 14 years as a mental health
@@ -49,6 +52,9 @@ export default function About(){
   <p>
     Through intentional guidance, evidence-based frameworks, and a deep commitment to authentic growth, I help individuals and organizations rise with clarity, build emotional resilience, and lead from a place of dignity.
   </p>
+  </div>
+
+</div>
 
 </div>
 
